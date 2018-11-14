@@ -53,12 +53,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-simple-zipkin.git"
+    "url": "git+https://github.com/zephyrpersonal/zipkin-instrumentation-egg.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/zephyrpersonal/zipkin-instrumentation-egg/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-simple-zipkin#readme",
+  "homepage": "https://github.com/zephyrpersonal/zipkin-instrumentation-egg#readme",
   "author": "zephyr",
   "license": "MIT"
 }
