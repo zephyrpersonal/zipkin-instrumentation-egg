@@ -1562,10 +1562,6 @@ commander@^2.11.0, commander@^2.9.0:
   version "2.19.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.19.0.tgz#f6198aa84e5b83c46054b94ddedbfed5ee9ff12a"
 
-commander@~2.1.0:
-  version "2.1.0"
-  resolved "http://registry.npmjs.org/commander/-/commander-2.1.0.tgz#d121bbae860d9992a3d517ba96f56588e47c6781"
-
 commander@~2.17.1:
   version "2.17.1"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.17.1.tgz#bd77ab7de6de94205ceacc72f1716d29f20a77bf"
@@ -4147,10 +4143,6 @@ nan@^2.9.2:
   version "2.11.1"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.11.1.tgz#90e22bccb8ca57ea4cd37cc83d3819b52eea6766"
 
-nan@~1.0.0:
-  version "1.0.0"
-  resolved "http://registry.npmjs.org/nan/-/nan-1.0.0.tgz#ae24f8850818d662fcab5acf7f3b95bfaa2ccf38"
-
 nanoid@^1.1.1:
   version "1.3.4"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-1.3.4.tgz#ad89f62c9d1f4fd69710d4a90953d2893d2d31f4"
@@ -4223,10 +4215,6 @@ node-fetch@^1.5.3:
 node-homedir@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/node-homedir/-/node-homedir-1.1.1.tgz#736db0b60e3bba8aba68df9927de40a7aabe1075"
-
-node-int64@~0.3.0:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/node-int64/-/node-int64-0.3.3.tgz#2d6e6b2ece5de8588b43d88d1bc41b26cd1fa84d"
 
 node-pre-gyp@^0.10.0:
   version "0.10.3"
@@ -4403,10 +4391,6 @@ optionator@^0.8.1, optionator@^0.8.2:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
     wordwrap "~1.0.0"
-
-options@>=0.0.5:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/options/-/options-0.0.6.tgz#ec22d312806bb53e731773e7cdaefcf1c643128f"
 
 os-homedir@^1.0.0, os-homedir@^1.0.1:
   version "1.0.2"
@@ -4838,10 +4822,6 @@ pump@^3.0.0:
   dependencies:
     end-of-stream "^1.1.0"
     once "^1.3.1"
-
-q@1.0.x:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/q/-/q-1.0.1.tgz#11872aeedee89268110b10a718448ffb10112a14"
 
 qs@^6.4.0, qs@^6.5.1, qs@^6.5.2:
   version "6.5.2"
@@ -5565,14 +5545,6 @@ thenify-all@^1.0.0:
   dependencies:
     any-promise "^1.0.0"
 
-thrift@^0.10.0:
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/thrift/-/thrift-0.10.0.tgz#339af65921677b30560aa51d6f7ab1b8091c9376"
-  dependencies:
-    node-int64 "~0.3.0"
-    q "1.0.x"
-    ws "~0.4.32"
-
 throat@^4.0.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/throat/-/throat-4.1.0.tgz#89037cbc92c56ab18926e6ba4cbb200e15672a6a"
@@ -5591,10 +5563,6 @@ through@2, through@^2.3.6, through@^2.3.8, through@~2.3, through@~2.3.4:
 thunkify@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/thunkify/-/thunkify-2.1.2.tgz#faa0e9d230c51acc95ca13a361ac05ca7e04553d"
-
-tinycolor@0.x:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/tinycolor/-/tinycolor-0.0.1.tgz#320b5a52d83abb5978d81a3e887d4aefb15a6164"
 
 title-case@^2.1.0:
   version "2.1.1"
@@ -5895,15 +5863,6 @@ write@^0.2.1:
   dependencies:
     mkdirp "^0.5.1"
 
-ws@~0.4.32:
-  version "0.4.32"
-  resolved "http://registry.npmjs.org/ws/-/ws-0.4.32.tgz#787a6154414f3c99ed83c5772153b20feb0cec32"
-  dependencies:
-    commander "~2.1.0"
-    nan "~1.0.0"
-    options ">=0.0.5"
-    tinycolor "0.x"
-
 wt@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/wt/-/wt-1.2.0.tgz#b4cbe34c1f50a56a5433a9dda8cbdb7c62e3bcdf"
@@ -6071,29 +6030,17 @@ zipkin-context-cls@^0.14.2:
   dependencies:
     continuation-local-storage "^3.1.7"
 
-zipkin-context-cls@^0.6.1:
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/zipkin-context-cls/-/zipkin-context-cls-0.6.1.tgz#5584c231de4eb6cd4090db7416d0a7d5997fdaac"
+zipkin-instrumentation-koa-slim@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/zipkin-instrumentation-koa-slim/-/zipkin-instrumentation-koa-slim-1.0.0.tgz#8387dc0a3297f32966d90bfcf8de4a6a09111edc"
   dependencies:
-    continuation-local-storage "^3.1.7"
-
-zipkin-instrumentation-koa-slim@^0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/zipkin-instrumentation-koa-slim/-/zipkin-instrumentation-koa-slim-0.0.6.tgz#e1ad1d0cc82bba7e1b58e111b576a9eae4661a68"
-  dependencies:
-    zipkin "^0.7.3"
-    zipkin-context-cls "^0.6.1"
-    zipkin-transport-http "^0.7.3"
+    zipkin "^0.14.3"
+    zipkin-context-cls "^0.14.2"
+    zipkin-transport-http "^0.14.3"
 
 zipkin-transport-http@^0.14.3:
   version "0.14.3"
   resolved "https://registry.yarnpkg.com/zipkin-transport-http/-/zipkin-transport-http-0.14.3.tgz#3655c84bb9ee1636ec8ae518ef8988854d756028"
-  dependencies:
-    node-fetch "^1.5.3"
-
-zipkin-transport-http@^0.7.3:
-  version "0.7.3"
-  resolved "https://registry.yarnpkg.com/zipkin-transport-http/-/zipkin-transport-http-0.7.3.tgz#e7caca8c1e927fd0321d45b0bfd996266387f420"
   dependencies:
     node-fetch "^1.5.3"
 
@@ -6104,11 +6051,3 @@ zipkin@^0.14.3:
     base64-js "^1.1.2"
     is-promise "^2.1.0"
     network-address "^1.1.0"
-
-zipkin@^0.7.3:
-  version "0.7.3"
-  resolved "https://registry.yarnpkg.com/zipkin/-/zipkin-0.7.3.tgz#d2f0f8db7ab7824ab3957408488e139aeae7ce90"
-  dependencies:
-    base64-js "^1.1.2"
-    network-address "^1.1.0"
-    thrift "^0.10.0"

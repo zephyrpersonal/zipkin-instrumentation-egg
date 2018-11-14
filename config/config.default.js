@@ -9,7 +9,7 @@
 exports.simpleZipkin = {
   ignorePaths: [],
   // tracer: CustomTracerInstance
-  logger: 'console', // console or http
+  recorder: 'console', // console or http
   httpRecorderOptions: {
     jsonEncoderVersion: 'V2', // V1 or V2
     endpoint: 'localhost:1314/api/v2/spans', // zipkin endpoint

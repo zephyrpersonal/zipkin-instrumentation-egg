@@ -16,7 +16,7 @@
   "dependencies": {
     "zipkin": "^0.14.3",
     "zipkin-context-cls": "^0.14.2",
-    "zipkin-instrumentation-koa-slim": "^0.0.6",
+    "zipkin-instrumentation-koa-slim": "^1.0.0",
     "zipkin-transport-http": "^0.14.3"
   },
   "devDependencies": {
