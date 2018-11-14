@@ -1,6 +1,6 @@
 {
   "name": "egg-simple-zipkin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "just another zipkin plugin for EggJS",
   "eggPlugin": {
     "name": "simpleZipkin"
